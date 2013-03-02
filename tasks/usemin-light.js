@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function (grunt) {
-	var HTMLProcessor = require('../lib/htmlprocesor');
+	var processor = require('../lib/processor');
 
 	grunt.registerMultiTask('usemin', 'Replaces references to assets', function () {
 		this.files.forEach(function (fileObj) {
@@ -13,7 +13,6 @@ module.exports = function (grunt) {
         // forEach handler will take additional arguments, and thus trigger the
         // raw buffer read
 				content = content.toString();
-				var processor = new HTMLProcessor(content);
 				content = processor.process;
 
 				grunt.file.write(filepath, content);
