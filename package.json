@@ -1,0 +1,25 @@
+{
+  "name": "grunt-usemin-light",
+  "version": "0.0.1",
+  "description": "Grunt task to replace blocks of assets in HTML files.",
+  "keywords": [
+    "gruntplugin",
+    "grunt",
+    "html"
+  ],
+  "homepage": "https://github.com/ianwremmel/grunt-usemin-light",
+  "bugs": "https://github.com/ianwremmel/grunt-usemin-light/issues",
+  "author": "Ian W. Remmel",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ianwremmel/grunt-usemin-light.git"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": "~0.2.0"
+  }
+}
