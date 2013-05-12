@@ -25,7 +25,7 @@ module.exports = function (grunt) {
 				content = content.toString();
 				content = processor.process(content);
 
-				grunt.file.write(file.dest, content);
+				grunt.file.write(filepath, content);
 			});
 		});
 	});
