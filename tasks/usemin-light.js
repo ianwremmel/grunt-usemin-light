@@ -5,6 +5,8 @@ module.exports = function (grunt) {
 
 	grunt.registerMultiTask('useminLight', 'Replaces references to assets', function () {
 
+		grunt.log.warn('grunt-usemin-light is deprecated. Use grunt-preprecess instead.');
+
 		this.files.forEach(function (file) {
 
 			file.src.filter(function(filepath) {
@@ -20,8 +22,8 @@ module.exports = function (grunt) {
 				var content = grunt.file.read(filepath);
 
 				// make sure to convert back into utf8, `file.read` when used as a
-	      // forEach handler will take additional arguments, and thus trigger the
-	      // raw buffer read
+				// forEach handler will take additional arguments, and thus trigger the
+				// raw buffer read
 				content = content.toString();
 				content = processor.process(content);
 

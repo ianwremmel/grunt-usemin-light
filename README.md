@@ -2,6 +2,37 @@
 
 > Replaces blocks of asset references in HTML files.
 
+## DEPRECATED
+
+> Use [grunt-preprocess](https://github.com/jsoverson/grunt-preprocess) instead.
+
+### Migrating to grunt-preprocess
+
+If your original code was
+
+```html
+<!-- build:js js/app.js -->
+<script src="js/app.js"></script>
+<script src="js/controllers/thing-controller.js"></script>
+<script src="js/models/thing-model.js"></script>
+<script src="js/views/thing-view.js"></script>
+<!-- endbuild -->
+```
+
+it should now be
+
+```html
+<!-- @if true !>
+<script src="js/app.js"></script>
+<!-- @endif -->
+<!-- @exclude -->
+<script src="js/app.js"></script>
+<script src="js/controllers/thing-controller.js"></script>
+<script src="js/models/thing-model.js"></script>
+<script src="js/views/thing-view.js"></script>
+<!-- @endexclude -->
+```
+
 ## Getting Started
 If you haven't used [grunt][] before, be sure to check out the [Getting Started][] guide, as it explains how to create a [gruntfile][Getting Started] as well as install and use grunt plugins. Once you're familiar with that process, install this plugin with this command:
 
