@@ -1,6 +1,6 @@
 {
   "name": "grunt-usemin-light",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Grunt task to replace blocks of assets in HTML files.",
   "keywords": [
     "gruntplugin",
