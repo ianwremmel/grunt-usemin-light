@@ -88,3 +88,6 @@ Used to limit the directories that will be searched for html files.
 ## Acknowledgements
 
 This plugins was inspired by grunt-usemin and borrows some of its code. At the time, grunt-usemin was just a little bit too opinionated for the author's needs.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ianwremmel/grunt-usemin-light/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
