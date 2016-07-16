@@ -1,4 +1,4 @@
-# grunt-usemin-light
+# grunt-usemin-light [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 > Replaces blocks of asset references in HTML files.
 
