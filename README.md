@@ -1,5 +1,7 @@
 # grunt-usemin-light [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ianwremmel/grunt-usemin-light.svg)](https://greenkeeper.io/)
+
 > Replaces blocks of asset references in HTML files.
 
 ## DEPRECATED
